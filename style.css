@@ -1,0 +1,282 @@
+
+
+
+                       /* puplic styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Josefin+Slab:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+h1{
+    
+    font-family: 'Josefin Slab', serif;
+}
+.navbar{
+    height: 100px;
+   
+}
+i{
+    margin: 10px;
+}
+ body{   overflow-x: hidden;}
+.header{
+ 
+    background-color: rgb(228, 235, 234);}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+li{list-style: none;}
+a{text-decoration: none;
+    margin: 20px;
+    color: rgb(151, 151, 151);
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.fo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100px;
+    color: rgb(21, 53, 80);
+    font-size:55px;
+}
+.iog{
+    padding-right: 100px;
+
+}
+
+.iog:hover{
+    transform: scale(1.3,1.3);
+    transition: 3s all;
+}
+.op{
+    overflow: hidden;
+}
+.btn:hover{
+    background-color: red;
+}
+ .op{
+    display: flex;
+    justify-content: space-between;
+ }
+ .left{
+    padding-top: 200px;
+ }
+ .fo,.btn{
+    margin: 40px;
+ }
+ .btn{
+    height: 60px;
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(19, 19, 44);
+ }
+ .box{
+    height: 400px;
+    position: relative;
+    width: 350px;
+    transition: 2s all;
+    overflow: hidden;
+
+ }
+ .bo{
+    height: 400px;
+    position: relative;
+    width: 350px;
+    transition: 2s all;
+    overflow: hidden;
+
+ }
+ .btn{
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(73, 97, 173);
+    border: none;
+    transition: 3s all;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -100px;
+    right:  -80px;
+ }
+ .box:hover .btn{
+bottom: 10px;
+left: 20px;
+ }
+
+ .bo:hover .btn{
+    bottom: 10px;
+    right:30px;
+     }
+
+     .b{
+        height: 60px;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        background-color: rgb(170, 33, 15);
+        border: none;
+        transition: 3s all;
+        border-radius: 20px;
+        position: absolute;
+       
+     }
+ .bt{
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(170, 129, 15);
+    border: none;
+    transition: 3s all;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -100px;
+    left: -80px;
+ }
+ .box:hover .bt{
+bottom: 10px;
+left: 20px;
+ }
+ img{
+    transition: 2s all;
+ }
+ .l{
+    text-align: center;
+ }
+ .box:hover img{
+    transform: scale(1.2,1.2);
+background-color: rgba(0, 0, 0, 0.3);
+ }
+
+ .navbar{
+    position: fixed;
+ }
+ .l{
+    text-align: center;
+    margin: auto;
+ }
+ .align{
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+
+ }
+ .gallery{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap;
+justify-content: space-evenly; 
+}
+.rr{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.bo{
+    margin: 40px;
+    height: 350px;
+    width: 400px;
+}
+.pop{
+
+height: 100vh;
+width: 100vw;    
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+}
+.box{}
+.kop{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+}
+
+.lop{
+    display: flex;
+    flex-direction: column;
+}
+.bo{
+    position: relative
+    ;
+
+}
+.content h1,p{
+    margin: 40px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bo:hover img{
+    transform: scale(1.2,1.2);
+
+}
+.po{
+    height: 100px;
+    width: 120px;
+}
+a:hover{
+    color: rgb(233, 110, 110);
+}
+h1{
+    color: white;
+
+}
+p{
+    color: rgb(163, 163, 163);
+}
+.footer{
+    background-color: red;
+padding: 60px;
+height: 100vh;
+width: 100vw;
+    display: flex;
+    
+}
+
+.kop{
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 100vw;
+}
+body{
+    position: relative;
+}
+.ioo{
+    border-radius: 50%;
+    background-color: rgb(235, 166, 200);
+    position: fixed;
+    color: red;
+    bottom: 20px;
+    right: 20px;
+}
